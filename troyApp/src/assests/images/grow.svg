@@ -1,0 +1,13 @@
+<svg id="grow" xmlns="http://www.w3.org/2000/svg" width="53.253" height="53.253" viewBox="0 0 53.253 53.253">
+  <g id="bounding-box">
+    <path id="shape" d="M0,0H53.253V53.253H0Z" fill="none" fill-rule="evenodd"/>
+  </g>
+  <rect id="Rectangle" width="3.575" height="25.024" rx="1.787" transform="translate(38.543 18.285)" fill="#0d98ba" stroke="#0d98ba" stroke-width="1.5"/>
+  <rect id="Rectangle-Copy" width="3.575" height="16.683" rx="1.787" transform="translate(30.201 26.626)" fill="#0d98ba" stroke="#0d98ba" stroke-width="1.5"/>
+  <rect id="Rectangle-Copy-2" width="3.575" height="11.916" rx="1.787" transform="translate(21.86 31.393)" fill="#0d98ba" stroke="#0d98ba" stroke-width="1.5"/>
+  <rect id="Rectangle-Copy-3" width="2.766" height="5.958" rx="1.383" transform="translate(13.135 37.351)" fill="#0d98ba" stroke="#0d98ba" stroke-width="1.5"/>
+  <rect id="Rectangle-2" data-name="Rectangle" width="38.132" height="2.383" transform="translate(7.561 42.118)" fill="#0d98ba"/>
+  <rect id="Rectangle-Copy-4" width="33.283" height="2.219" transform="matrix(0.799, -0.602, 0.602, 0.799, 7.565, 31.318)" fill="#0d98ba"/>
+  <rect id="Rectangle-3" data-name="Rectangle" width="2.219" height="5.769" transform="translate(33.916 10.207)" fill="#0d98ba"/>
+  <rect id="Rectangle-Copy-5" width="2.219" height="5.769" transform="translate(36.168 10.223) rotate(90)" fill="#0d98ba"/>
+</svg>

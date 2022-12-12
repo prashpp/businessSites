@@ -1,0 +1,29 @@
+.benchmark-buniess-premium{
+    margin: 90px 0;
+}
+.benchmark-buniess-premium .businessGrid {
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+}
+.benchmark-buniess-premium .my-business-img {
+    margin-top: 75px;
+}
+
+
+
+/* media query start */
+@media only screen and (max-width:991px){
+    .benchmark-buniess-premium{
+        margin: 60px 0;
+    }
+    .benchmark-buniess-premium .my-business-img {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .benchmark-buniess-premium{
+        margin: 25px 0;
+    }
+}

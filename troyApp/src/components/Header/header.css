@@ -1,0 +1,33 @@
+/* Header section start */
+header.header_section {
+    background: transparent;
+}
+header .header {
+    justify-content: space-between;
+    padding:16px 0;
+}
+.navbar-sec ul{display: flex;align-items: center;}
+.navbar-sec .nav-items .nav-links{ 
+    padding: 15px 8px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+    color: var(--black-color);
+    font-family: var(--font-family-poppins);
+}
+.navbar-mobile-sec .nav-items .nav-links{ 
+    padding: 15px 10px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+    color: var(--white-color);
+    font-family: var(--font-family-poppins);
+}
+.navbar-sec .nav-items{
+    margin: 0 5px;
+}
+.App .header .common-btn {
+    padding: 13px 32px;
+    margin-left: 10px;
+}
+/* Header section End */

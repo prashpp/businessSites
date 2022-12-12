@@ -1,0 +1,979 @@
+/* Global css start*/
+*{margin: 0;padding: 0; box-sizing: border-box;}
+ul { list-style: none; padding: 0;}
+body{font-family: var(--font-family);font-size: 16px;line-height: 20px;}
+.container {max-width: 1300px; margin: 0 auto; padding: 0;width: 100%;}
+/* Global css End*/
+
+/* Font-face start */
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Segoe\ UI.woff') format('woff');
+}
+@font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Segoe\ UI\ Bold.woff') format('woff');
+}
+/* Font-face End */
+
+/* common css start*/
+:root{
+    --font-family-poppins: 'Poppins', sans-serif;
+    --font-family-segoe-reg:"Segoe UI Regular";
+    --font-family-segoe-bold:"Segoe UI Bold";
+    --font-family-manrope: 'Manrope', sans-serif;
+
+    --primary-color: #0D98BA;
+    --green-color : #6BAD03;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --dark-gray : #6B6B6B;
+    --light-gray : #777777;
+    --light-bg: #F6F6F6;
+    --form-label-color:#424242;
+}
+.App h1{    
+    font-size: 46px;
+    line-height: 56px;
+    color: var(--black-color);
+}
+.App h2{
+    font-size: 40px;
+    line-height: 56px;
+    color: var(--black-color);
+}
+.App h3{
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--black-color);
+}
+.App h4{
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--black-color);
+}
+.App h5{
+    font-size: 28px;
+    line-height: 32px;
+    color: var(--black-color);
+}
+.App h6{
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--black-color);
+}
+p{
+    font-size: 20px;
+    line-height: 27px;    
+}
+a{
+    text-decoration: none;
+}
+.App .common-btn {
+    background: var(--green-color) !important;   
+    font-size:17px;
+    line-height: 24px;
+    color: var(--white-color);
+    font-family: var(--font-family-manrope);
+    border-radius:4px ;
+    font-weight: 200;    
+    padding: 13px 32px;
+    text-transform: none;
+   transition: all 0.3s ease;
+}
+.App .common-btn:hover{
+    background-image:  linear-gradient(to right,#009900 10%, #009933 100%) !important;
+    transition: all 0.3s ease;
+}
+
+.App .small-btn{
+    background: var(--green-color);
+    padding: 10px 15px;
+    font-size:16px;
+    line-height: 20px;
+    color: var(--white-color);
+    font-family: var(--font-family-manrope);
+    
+    padding: 10px 30px;
+}
+.App .gridContainer{
+    margin-top: 0;
+}
+/* common css End*/
+
+
+
+
+
+
+/* Be certain section start */
+.beCertain_sec {
+    padding: 45px 0 60px;
+    position: relative;
+    background-color: var(--primary-color);
+}
+.beCertain_sec_inner {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.beCetain_btn{
+    margin-top: 16px;
+    justify-content: end;
+}
+.beCetain_btn .common-btn{
+    padding: 13px 32px;
+}
+.beCertain_content h1{
+    color: var(--white-color);
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: var(--font-family-poppins);
+    font-size: 46px;
+    line-height: 56px;
+}
+.beCertain_content p{
+    font-family: var(--font-family-segoe-reg);
+    color: var(--white-color);
+    line-height: 27px;
+    font-size: 20px;
+    padding-right: 250px;
+}
+.beCetain_btn {
+    display: flex;
+    align-items: center;
+}
+.beCertain-sec {
+    margin-top: 15px;
+}
+/* Be certain section End */
+
+/* Benchmarked section start*/
+.benchmarked_Sec {
+    padding: 120px 0;
+}
+.benchmarked_InnerSec{
+    box-shadow: 0 15px 70px rgba(0,0,0,0.1);
+    border-radius: 16px;
+    margin-bottom: 60px;
+    margin-left: -16px;
+    margin-right: 16px;
+}
+.benchmarked_InnerSec .gridContainer {
+    margin-left: 0;
+    width: 100%;
+}
+.benchmarked_InnerSec .bechmaked_Content{
+    padding: 60px ;
+}
+.benchmarked_InnerSec .bechmaked_Content h1{
+    font-size: 40px;
+    line-height: 56px;
+    font-family: var(--font-family-poppins);
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.benchmarked_InnerSec .bechmaked_Content h5{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: var(--font-family-poppins);
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.benchmarked_InnerSec .bechmaked_Content p{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: var(--font-family-poppins);
+    font-weight: 500;
+    color: var(--dark-gray);
+    margin-bottom: 30px;
+    padding-right: 50px;
+}
+.benchmarked_InnerSec .benchmarked_Img{
+    max-width: 530px;
+    width: 100%;
+    height: 100%;
+    margin-left: -16px;
+}
+.benchmarked_Img img{
+    max-width: 550px;
+    width: 100%;
+   
+}
+/* Benchmarked section End*/
+
+
+/* Business section start */
+.business_Sec {
+    margin: 120px 0;
+}
+.business_Sec .busines_inner .busines_Content{
+    padding: 40px  0 90px;
+}
+.business_Sec .busines_inner .busines_Content .subheading {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--font-family-poppins);
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.business_Sec .busines_inner .busines_Content h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: var(--font-family-poppins);
+    font-weight: 700;
+    color: var(--black-color);
+    margin-bottom: 10px;
+    padding-right: 50px;    
+}
+.business_Sec .busines_inner .busines_Content .business_Content_data{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    color: var(--light-gray);
+    margin-bottom: 20px;
+}
+.busines_inner .business_grid{
+    width: 100%;
+    margin-left: 0;
+}
+.business_Boxes_Content {
+    background:var(--light-bg) ;
+    padding: 32px;
+    border-radius: 16px;
+}
+.business_Boxes_Content .boxes_contentHeading{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-family-poppins);
+    font-weight: 700;
+    color: var(--black-color);
+    margin-bottom: 20px;
+}
+.business_Boxes_Content .boxes_data{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    color: var(--light-gray);
+    margin-bottom: 20px;
+}
+.business_Boxes_Content img{
+    margin-bottom: 30px;
+}
+.business_content_upper {
+    position: relative;
+    top: -20px;
+}
+/* Business section End */
+
+
+/* Reduce risk section start */
+.Reduce_risk_Sec .Reduce_risk_Sec_inner .Reduce_risk_Sec_Content {
+    padding: 120px 0;
+} 
+.Reduce_risk_Sec_inner .reduce_grid{
+    width: 100%;
+    margin-left: 0;
+}
+.Reduce_risk_Sec_Content .subheading{
+    font-size: 15px;
+    line-height: 30px;
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.Reduce_risk_Sec_Content h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: var(--font-family-poppins);
+    font-weight: 700;
+    color: var(--black-color);
+    /* margin-bottom: 10px; */
+}
+.Reduce_risk_Sec_Content p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-family-poppins);
+    font-weight: 500;
+    color: var(--light-gray);
+    margin-top: 20px;
+}
+.Reduce_risk_Sec_video .reduce_risk_vid{
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.Reduce_risk_Sec_video iframe{
+    width: 100%;
+    height: 100%;    
+}
+/* Reduce risk section End */
+
+/* about section start */
+
+.about_Sec{
+    margin-bottom: 120px;
+}
+.about_Content img{
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+}
+.about_Sec .about_inner .about_Sec_right {
+    padding: 120px 20px;
+}
+.about_Sec .about_inner .about_Sec_right h5{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--font-family-poppins);
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.about_Sec .about_inner .about_Sec_right h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: var(--font-family-poppins);
+    font-weight: 700;
+    color: var(--black-color);
+    margin-bottom: 10px;
+    padding-right: 50px;    
+}
+.about_Sec .about_inner .about_Sec_right p{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    color: var(--light-gray);
+    margin-bottom: 20px;
+}
+.about_Sec .about_inner .about_Sec_right button{
+    margin-top: 20px;
+}
+.about_inner .about_grid{
+    width: 100%;
+    margin-left: 0;
+}
+/* about section End */
+
+/* footer section start */
+.footerSection {
+    background: var(--primary-color);
+    margin-top: 16px;
+    padding: 50px 0 20px;
+}
+.footer_Top{
+    margin-top: 16px;
+    padding: 5px 20px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+
+.footerSection  .footer_Headings{
+    font-size: 16px;
+    line-height: 28px;
+    font-family: var(--font-family-poppins);
+    font-weight: 500;
+    color: var(--white-color);
+    margin-bottom: 10px;
+}
+.footerSection .footer_sec_One .footer_Sec_One_data{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-family-poppins);
+    font-weight: 200;
+    color: var(--white-color);
+    padding-right: 200px;
+}
+.footerSection .footer-links{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: var(--font-family-poppins);
+    font-weight: 200;
+    color: var(--white-color);
+}
+.footerSection ul li{
+    margin-bottom: 10px;
+}
+.footer_Bottom{
+    padding: 20px 0 0;
+}
+.footer_Bottom p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    color: var(--white-color);
+}
+.footer_sec_Four ul {
+    display: flex;
+}
+.footer_sec_Four ul .social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    padding: 10px 13px;
+    margin-right: 10px; 
+}
+.fb-bg {
+    background: #3A5897;
+    border: 1px solid #3A5897;
+}
+.fb-bg:hover{
+    background: transparent;
+}
+.tw-bg {
+    background: #1DA0F1;
+    border: 1px solid #1DA0F1;
+}
+.tw-bg:hover{
+    background: transparent;
+}
+.yt-bg {
+    background: #C4302B;
+    border: 1px solid #C4302B;
+}
+.yt-bg:hover{
+    background: transparent;
+}
+/* footer section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact section start  */
+.common-Banner-sec {
+    background: url(../images/contact_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.common-Banner-sec_opacity {
+    background: rgba(0,139,174,0.7);
+}
+.common-Banner-sec_Content {
+    text-align: center;
+    padding: 100px 20px;    
+}
+.common-Banner-sec_Content h1{
+    font-size: 36px;
+    line-height: 50px;
+    font-family: var(--font-family-poppins);
+    font-weight: 700;
+    color: var(--white-color);
+    margin-bottom: 15px;
+}
+.common-Banner-sec_Content p{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    color: var(--white-color);
+}
+.contactForm_Sec {
+    padding: 90px 0;
+    
+}
+.contactForm_Sec_inner{
+    display: flex;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.ContactForm_left{
+    max-width: 550px;
+    width: 100%;
+    background: url('../images/contact-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.ContactForm_left .contact_us_Content {
+    background: rgba(13, 152, 186, 0.9);
+    height: 100%;
+    padding: 160px 80px;
+}
+.contact_us_Content h1{
+    font-size: 36px;
+    line-height: 48px;
+    font-family: var(--font-family-poppins);
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--white-color);
+}
+.contact_us_Content p{
+    font-size: 16px;
+    line-height: 25px;
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: var(--white-color);
+}
+.contact_us_inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.contact_us_inner_img {
+    background: var(--white-color);
+    padding: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.contact_us_inner_Data .contact_heading{
+    font-size: 16px;
+    line-height: 25px;
+    font-family: var(--font-family-poppins);
+    font-weight: 200;
+    margin-bottom: 0px;
+    color: var(--white-color);
+}
+.contact_us_inner_Data .contact_number{
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.ContactForm_right{
+    max-width: 760px;
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    background: var(--white-color);
+}
+.ContactForm_right h1{
+    font-size: 36px;
+    line-height: 56px;
+    font-family: var(--font-family-poppins);
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--black-color);
+}
+.ContactForm_right .form_Section .formInputs {
+    width: 100%;
+}
+.ContactForm_right .form_Section label{
+    margin-bottom: 3px;
+    margin-left: 15px;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    color: var(--form-label-color);
+}
+.ContactForm_right .form_Section .formInputs input{
+    padding: 10px;
+}
+.ContactForm_right .form_Section .form_contents{
+    margin-bottom: 20px;
+}
+.ContactForm_right .form_Section button{
+    margin-top: 30px;
+}
+ 
+/* Contact section End */
+
+/* benchmark iframe section start */
+.iframe-section{
+    padding: 30px;
+}
+.benchmark-business-iframe{
+    background-color: rgb(227, 242, 253);
+    border-radius: 8px 8px 8px 8px;
+    padding: 20px;
+    overflow: auto;
+    height: 800px;
+}
+.location-sec.business-first-section{
+    height: 250px;
+    
+}
+.business-first-section {
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(97, 97, 97);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: none;
+    background-image: none;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+   
+}
+.benchmark-business-iframe .gray-bg-sec{
+    font-size: 18px;
+    background-color: #6B6B6B;
+    color: #fff; 
+    padding: 5px 20px;
+    line-height: 26px;
+}
+.business-first-section-body{
+    padding: 8px 15px;
+    overflow-y: auto;
+}
+.filter-form-control{
+    width: 100%;
+}
+.benchmark-business-iframe .select-filter {
+    width: 100%;
+    border-radius: 0;
+    border: 0;    
+    background-color: rgb(33, 150, 243);    
+    color: #fff;
+}
+.benchmark-business-iframe .select-filter > div{
+    padding: 5px;
+    border-radius: 0;
+    border: 0;
+}
+
+.industry-section{
+    height: 410px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(97, 97, 97);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: none;
+    background-image: none;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+.industry-inner-sec-list {
+    padding: 8px 15px;
+}
+.filter-btns button{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #1DA0F1;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 0 10px 0;
+    color: #fff;
+}
+.filter-btns button:hover{
+    background-color: #6B6B6B;
+}
+
+.number-of-companies{
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.benchmark-business-iframe .number-of-companies .gray-bg-sec{
+    font-size: 14px;
+}
+.number-of-companies-content{
+    padding: 8px 15px;    
+}
+.industry-list .industry-list-text{
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+.industry-avg-revenue{
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(97, 97, 97);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: none;
+    background-image: none;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+.industry-avg-revenue-chart{
+    padding: 20px;
+}
+
+.breakdown-of-industry{
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(97, 97, 97);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: none;
+    background-image: none;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+.number-of-similar-companies {
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(97, 97, 97);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: none;
+    background-image: none;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+.breakdown-of-industry-chart{
+    padding: 20px;
+}
+.breakdown-of-industry-chart canvas {
+    height: 460px !important;
+}
+
+.common-revenue{
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.common-revenue h3{
+    font-size: 24px;
+    text-align: center;
+    word-wrap: break-word; 
+   
+}
+.common-revenue .sales-og-good-revenue{
+    color: #3A5897;
+}
+.common-revenue .all-other-revenue{
+    color: #009900;
+}
+.common-revenue p{
+    font-size: 16px;
+    color: #424242;
+    text-align: center;
+}
+.breakdown-content {
+    height: 95px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+    padding: 20px 50px;
+}
+.filter-btns-bottom.filter-btns{
+    display: flex;
+    justify-content: center;
+}
+.filter-btns-bottom.filter-btns button{
+    display: inline-block;
+    margin: 0 10px;
+}
+.industry-avg-operating-expenses{
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+.company-spend-heading{
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.company-spend-heading h5{
+    font-size: 22px;
+    line-height: 28px;
+}
+.company-spend-desc{
+    padding: 30px 20px 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.bg-white-common{
+    padding: 5px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.bg-white-common .industry-avg-heading{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+}
+.bg-white-common h5{
+    font-size: 17px;
+    font-weight: 600;
+}
+.gross-margin-sec h3{
+    color: #003366;
+    margin-top: 10px;
+}
+.ebitda-margin-sec h3{
+    color:#336600 ;
+    margin-top: 10px;
+}
+.net-margin-sec h3{
+    color:#660033 ;
+    margin-top: 10px;
+}
+.return-on-assest-sec h3{
+    color: #666600;
+    margin-top: 10px;
+}
+.return-of-equity h3{
+    color: #42247E;
+    margin-top: 10px;
+}
+.how-profitabilty-industry-chart{
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+.operating-expenses-percentage{
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+
+.Upper-quartile-industry-assets{
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+.Upper-quartile-industry-liabilities{
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+.total-liabilities-shareholder{
+    height: 620px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+.total-liabilities-shareholder-content{
+    padding: 10px;
+}
+.leverage-chart {
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+.bg-white-common.company-finance-content h5{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+.income-statement-table{
+    background: #fff;
+    margin-bottom: 10px;
+}
+.total-income-sec {
+    display: flex;
+    margin-top: 20px;
+}
+.cost-of-sale-chart-sec {
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 10px;
+}
+
+.breakdown-avg-cost-sec{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 30px;
+}
+
+.sole-proprietorship{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.glossary-left-common{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(227, 242, 253);
+    margin-bottom: 20px;
+    padding: 20px 15px;
+}
+.glossary-left-common p{
+    margin-bottom: 10px;
+}
+/* benchmark iframe section End */
+
+.basicPagination{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+

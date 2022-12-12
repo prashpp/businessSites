@@ -1,0 +1,406 @@
+/* media 1360px start*/
+@media only screen and (max-width:1360px){
+    .container{
+        max-width: 1170px;
+    }
+}
+/* media 1360px End*/
+
+/* media 1280px start*/
+@media only screen and (max-width:1280px){
+    
+}
+/* media 1280px End*/
+
+/* media 1199px start*/
+@media only screen and (max-width:1199px){
+    .container {
+        max-width: 992px;
+        padding: 0 10px;
+    }
+    .banner-content h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .banner-content p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .beCertain_content h1 {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 10px;
+    }
+    .beCertain_content p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .benchmarked_InnerSec .bechmaked_Content {
+        padding: 40px;
+    }
+    .benchmarked_InnerSec .bechmaked_Content h1{
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 15px;
+    }
+    .benchmarked_InnerSec .bechmaked_Content h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .benchmarked_InnerSec .bechmaked_Content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .App .common-btn {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 10px 30px;
+    }
+    .benchmarked_InnerSec{
+        margin-right:0;
+        margin-left: 0;
+    }
+    .footerSection .footer_sec_One .footer_Sec_One_data{
+        padding-right: 90px;
+    }
+}
+/* media 1199px End*/
+
+
+/* media 991px start */
+@media only screen and (max-width:991px){
+    .container {
+        max-width: 768px;
+    }
+    .bannerImages .sealImg{
+        width: 100px;
+        left: -25px;
+        bottom: 25px;
+    }
+    .banner-content h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .banner-content h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .banner-content p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .banner_center_Img {
+        margin: 0px 15px 0;
+        top: 40px;
+    }
+    .bannerWrapper {
+        padding: 40px 0 80px;
+    }
+    .beCertain_content p {
+        
+        padding-right: 80px;
+    }
+    .beCertain_content h1{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    
+    .beCertain_content p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .beCetain_btn .common-btn {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    .benchmarked_Sec {
+        padding: 50px 0 0;
+    }
+    .benchmarked_InnerSec .bechmaked_Content h1{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .benchmarked_InnerSec .bechmaked_Content {
+        padding: 30px;
+    }
+    .Reduce_risk_Sec_video .reduce_risk_vid{
+        height: 300px;
+    }
+    .Reduce_risk_Sec .Reduce_risk_Sec_inner .Reduce_risk_Sec_Content {
+        padding: 10px 0;
+    }
+    .Reduce_risk_Sec_Content h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .Reduce_risk_Sec_Content p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .business_Sec .busines_inner .busines_Content h1{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .business_Sec .busines_inner .busines_Content .business_Content_data {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .business_Boxes_Content {
+        padding: 20px;
+    }
+    .business_Boxes_Content img {
+        margin-bottom: 15px;
+    }
+    .business_Boxes_Content .boxes_contentHeading{
+        margin-bottom: 10px;
+    }
+    .business_Boxes_Content .boxes_data {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .about_Sec .about_inner .about_Sec_right h1{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .about_Sec{
+        margin-bottom: 50px;
+    }
+    .footerSection .footer_sec_One .footer_Sec_One_data {
+        padding-right: 0;
+    }
+    .ContactForm_right h1 {
+        font-size: 28px;
+        line-height: 38px;        
+        margin-bottom: 10px;
+    }
+    .ContactForm_right{
+        padding: 60px;
+    }
+    .ContactForm_left .contact_us_Content{
+        padding: 60px 40px;
+    }
+    .contact_us_Content h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .common-Banner-sec_Content {
+        text-align: center;
+        padding: 45px 0px;
+    }
+    .common-Banner-sec_Content h1{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 5px;
+    }
+    .common-Banner-sec_Content p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+/* media 991px End */
+
+/* media 900px start*/
+@media only screen and (max-width:900px){
+    .navbar-sec ul{
+        display: block;
+        text-align: center;
+        padding: 20px 10px;
+    }
+    .navbar-mobile-sec .nav-items{
+        margin-bottom: 30px;
+    }
+    .navbar-mobile-sec div:nth-child(3){
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        left: 0px !important;
+        right: 0px !important;
+        top: 90px !important;
+        background: rgba(0,0,0,0.9);
+    }
+    .navbar-mobile-sec .nav-items .common-btn {
+        background: var(--green-color);
+        padding: 10px 20px;
+        font-size:18px;
+        line-height: 24px;
+        color: var(--white-color);
+        font-family: var(--font-family-manrope);
+        border-radius:4px ; 
+    }    
+    
+    .banner_Img img{
+        height: 300px;        
+    }
+    .banner-section-inner .bannerGrid{
+        display: block;
+    }
+    .bannerImages{
+        justify-content: center;
+    }
+    
+    .logo_section .logo{
+        width: 110px;
+    }
+    .banner-section .banner-content{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .banner-content h1{
+        padding-right: 0;
+    }
+    .banner-content p{
+        padding-right: 0;
+    }
+    .bannerImages .sealImg {
+        left: 115px;
+        bottom: -20px;
+    }
+    .benchmarked_InnerSec .benchmarked_Img{
+        margin: 0 auto;
+    }
+    .Reduce_risk_Sec_inner .reduce_grid{
+        display: block;
+    }
+    .Reduce_risk_Sec_inner .reduce_grid .Reduce_risk_Sec_video{
+        margin: 0;
+        padding-left: 0;
+    }
+    .business_Sec .busines_inner .busines_Content {
+        padding: 0px;
+    }
+    .business_content_upper{
+        top: 0;
+    }
+    .common_footer {
+        margin-right: 20px;
+    }
+    .footer_sec_One{
+        margin-bottom: 30px;
+    }
+    
+}
+/* media 900px End*/
+
+/* media 767px start*/
+@media only screen and (max-width:767px){
+    .container {
+        max-width: 540px;
+    }
+    .bannerImages .sealImg {
+        left: 5px;
+        bottom: -20px;
+    }
+    .business_Sec {
+        margin: 60px 0;
+    }
+    .about_Sec .about_inner .about_Sec_right {
+        padding: 50px 0px;
+    }
+    .contactForm_Sec_inner{
+        display: block;
+    }
+    .ContactForm_left .contact_us_Content {
+        padding: 20px 30px;
+    }
+    .contact_us_Content h1{
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .contact_us_Content p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .contact_us_inner_img{
+        width: 40px;
+        height: 40px;
+    }
+    .ContactForm_right {
+        padding: 30px;
+    }
+    .ContactForm_right h1{
+        text-align: center;
+    }
+    .ContactForm_right .form_Section button{
+        margin-top: 10px;
+    }
+    .contactForm_Sec {
+        padding: 50px 0;
+    }
+    contact_us_inner {
+        margin-bottom: 20px;
+    }
+    .contactUs_Content {
+        padding: 50px 20px;
+    }
+}
+
+
+/* media 600px start*/
+@media only screen and (max-width:600px){
+    .busines_inner .business_Sec_right .business_boxes{
+        width: 100%;
+        padding-left: 0;
+    }
+}
+/* media 600px start*/
+
+/* media 560px start*/
+@media only screen and (max-width:560px){
+    .container{
+        padding: 0 15px;
+    }
+    .banner_Img img {
+        height: 240px;
+    }
+    .bannerImages .sealImg {
+        left: 40px;
+        bottom: -20px;
+    }
+    .bannerImages {
+        justify-content: center;        
+    }
+    .beCertain_content p {
+        padding-right: 0;
+    }
+    .benchmarked_InnerSec{
+        margin-bottom: 40px;
+    }
+}
+/* media 560px End*/
+
+/* media 480px start*/
+@media only screen and (max-width:480px){
+    .bannerImages .sealImg {
+        left: 0;        
+    }
+    .beCertain_sec {
+        padding: 35px 0 40px;
+    }
+    .benchmarked_InnerSec .bechmaked_Content p{
+        padding: 0;
+        margin-bottom: 15px;
+    }
+}
+
+/* media 480px End*/
+
+/* media 390px start*/
+@media only screen and (max-width:390px){
+    .bannerImages  {
+        transform: scale(0.8);
+    }
+    .banner_Img img {
+        height: 200px;
+    }
+    .banner-section .banner-content{
+        margin-bottom: 0;
+    }
+    .bannerWrapper {
+        padding: 20px 0 50px;
+    }
+}
+
+/* media 390px start*/

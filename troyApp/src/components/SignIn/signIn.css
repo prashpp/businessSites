@@ -1,0 +1,147 @@
+.signInSec  {
+    margin:  97px 0;
+}
+.right-sec {
+    padding: 20px 10px;
+}
+.signInSec .singNameHeading {
+    color: var(--black-color);
+    font-weight: 700;
+    margin: 20px 0;
+    font-family: var(--font-family-poppins);
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+}
+.signInSecInner  {
+    box-shadow: 0 3px 15px rgb(0 0 0 / 8%);
+    border-radius: 15px;
+}
+.singNameHeading {
+    color: var(--black-color);
+    font-weight: 700;
+    margin: 20px 0;
+    font-family: var(--font-family-poppins);
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+}
+.signInSec .signInGrid {
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0;
+}
+.singUpImg {
+    width: 100%;
+    height: 100%;
+}
+.singUpImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.singInHeading h2{
+    color: var(--black-color);
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: var(--font-family-poppins);
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+/* .social-Links ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;    
+} */
+/* .social-Links ul li{
+    padding: 14px 0px;
+} */
+.social-Links  a{
+    padding: 14px 15px;
+     border-radius: 4px;
+     border: 1px solid var(--green-color);     
+     display: inline-block;
+     margin-bottom: 10px;
+     width: 100%;
+}
+.social-Links  a span{
+    margin-left: 10px;
+}
+.social-Links  a img{
+    position: relative;
+    top: 1px;
+}
+.singInHeading  .linkGrid {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+}
+.signInSecInner .or-Divider {
+    text-align: center;
+    margin: 20px  0;
+    position: relative;
+    background: var(--white-color);
+    display: inline-block;
+    width: 100%;
+    z-index: 1;
+}
+.signInSecInner .or-Divider:after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    background: #BDBDBD;
+    left: 0;
+    top: 10px;
+}
+.signInSecInner .formInputs {
+    width: 100%;
+}
+ .form_contents{
+    margin-bottom: 15px;
+}
+ .form_contents label{
+    margin-bottom: 3px;
+    margin-left: 15px;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    color: var(--form-label-color);
+}
+ .form_contents  input {
+    padding: 10px;
+}
+
+.checkbox-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signIn-btn-sec button {
+    width: 100%;
+    margin: 30px 0 10px 0 ;
+}
+.signIn-btn-sec p{
+    text-align: center;
+}
+
+
+/* media query start */
+@media only screen and (max-width:767px){
+    .social-Links ul {
+        display: block;
+    }
+    .social-Links ul li{
+        display: inline-block;       
+    }
+    .social-Links ul a {
+        width: 200px;
+
+    }
+}
+
+/* media query End */
